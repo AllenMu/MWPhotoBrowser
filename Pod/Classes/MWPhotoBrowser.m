@@ -1023,7 +1023,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
     CGFloat height = 44;
     
     if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
-        if(MAX(UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height) == 812.0 && !UIInterfaceOrientationIsLandscape(orientation)){//iPhone X
+        if((MAX(UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height) == 812.0 || MAX(UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height) == 896.0) && !UIInterfaceOrientationIsLandscape(orientation)){//iPhone X
             height += 30;
         }else if(UIInterfaceOrientationIsLandscape(orientation)){
             height = 32;

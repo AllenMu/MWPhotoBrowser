@@ -1,5 +1,7 @@
 # MWPhotoBrowser
 
+只调整了SdWebImage的最高版本
+
 <!--[![CI Status](http://img.shields.io/travis/Michael Waterfall/MWPhotoBrowser.svg?style=flat)](https://travis-ci.org/Michael Waterfall/MWPhotoBrowser)-->
 [![Version](https://img.shields.io/cocoapods/v/MWPhotoBrowser.svg?style=flat)](http://cocoapods.org/pods/MWPhotoBrowser)
 [![License](https://img.shields.io/cocoapods/l/MWPhotoBrowser.svg?style=flat)](http://cocoapods.org/pods/MWPhotoBrowser)
@@ -7,9 +9,9 @@
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=mwaterfall&url=https://github.com/mwaterfall/MWPhotoBrowser&title=MWPhotoBrowser&language=&tags=github&category=software)
 
-## MBProgressHUD 1.1.0，DACircularProgress 2.3.1，SDWebImage 4.2.2:
+## MBProgressHUD 1.1.0，DACircularProgress 2.3.1，SDWebImage 4.4.2:
 
-```pod "MWPhotoBrowser", :podspec =>'https://raw.githubusercontent.com/moinku07/MWPhotoBrowser/master/MWPhotoBrowser.podspec'```
+```pod "MWPhotoBrowser", :podspec =>'https://raw.githubusercontent.com/AllenMu/MWPhotoBrowser/master/MWPhotoBrowser.podspec'```
 
 ## A simple iOS photo and video browser with optional grid view, captions and selections.
 
